@@ -1,0 +1,211 @@
+body{
+  background-color: #FFFDF9;
+}
+
+section {
+  background-color: #FFFDF9;
+}
+
+  a{
+  text-decoration: none;
+  color: #333;
+}
+
+p,h1,h2,h3,h4{
+  text-align: center;
+  color: #333;
+  line-height: 2;
+}
+
+ul li{
+  list-style-type: none;
+  text-align: center;
+  color: #333;
+  margin: 10px;
+  
+}
+
+#header{
+  border-bottom: 1px solid #333;
+  margin: 30px 130px 30px 145px;
+  padding: 20px 0px 20px 0px;
+}
+
+#header h2{
+  font-size: 40px;
+  line-height: 1;
+}
+#header h1{
+  font-size: 50px;
+  color: #CE0B09;
+}
+
+#home div p{
+  margin: 0px 130px 50px 145px;  
+  padding: 10px 100px 10px 100px;
+}
+
+
+nav{
+  text-align: center; 
+}
+
+.nav-fixed {
+  top: 0;
+  z-index: 2;
+  position: fixed;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFDF9;
+    display: inline-block;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+}
+
+nav li {
+    float: left;  
+    margin: 0 80px;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+
+li a:hover {
+    color: #CE0B09;
+}
+
+#box {
+  margin: 50px 130px 10px 145px;
+  border-bottom: 1px solid #333;
+  padding: 0px 20px 30px,20px;
+}
+
+
+ #apples div p{
+  padding: 10px 100px 10px 100px;
+  font-size: 17px;
+  margin-bottom: 50px;
+  
+}
+#types {
+  margin-top: -50px;
+}
+
+.floating {
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  margin: 30px 60px 30px 60px; 
+  padding: 10px;
+  vertical-align: top;
+}
+
+.floating li{
+  margin:5px 30px 5px 0px;
+}
+
+.floating h4{
+  color: #CE0B09;
+}
+
+
+#equipment div{
+  border-bottom: 1px solid #333;
+  margin: 60px 130px 50px 145px;
+}
+
+#equipment ul{
+  margin-bottom: 70px;
+  
+}
+
+#equipment li a{
+  color:#CE0B09;
+  margin-left: 10px;
+}
+
+#equipment li span{
+  margin-left: 10px;
+}
+
+#recipe div{
+  border-bottom: 1px solid #333;
+  margin: 60px 130px 50px 145px;
+} 
+
+#recipe ol li{
+  margin:20px;
+  color: #333;
+}
+
+footer{
+  color:#CE0B09;
+  text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+
+     .nav-fixed,nav{
+        display: none;
+    }
+  
+  
+  #header{
+  border-bottom: 1px solid #333;
+  margin: 30px 30px 30px 30px;
+  padding: 20px 0px 20px 0px;
+}
+
+#home div p{
+  margin: 0px 30px 50px 30px;  
+  padding: 10px 10px 10px 10px;
+}
+
+#box {
+  margin: 50px 30px 10px 30px;
+  border-bottom: 1px solid #333;
+  padding: 0px 0px 30px,0px;
+}
+
+ #apples div p{
+  padding: 10px 10px 10px 10px;
+  font-size: 17px;
+  margin-bottom: 50px;
+ }
+
+  .floating {
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  margin: 10px 10px 0px 10px; 
+  padding: 10px;
+  vertical-align: top;
+}
+
+.floating li{
+  margin:0px 30px 5px 0px;
+}
+  
+ #equipment div{
+  border-bottom: 1px solid #333;
+  margin: 60px 30px 50px 30px;
+}
+  
+  #equipment li a{
+  color:#CE0B09;
+}
+
+#recipe div{
+  border-bottom: 1px solid #333;
+  margin: 60px 30px 50px 30px;
+} 
+}
+

@@ -55,6 +55,7 @@ nav{
   z-index: 2;
   position: fixed;
   margin: auto;
+  text-align: center;
 }
 nav ul {
     list-style-type: none;

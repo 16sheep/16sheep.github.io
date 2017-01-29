@@ -1,235 +1,227 @@
-body{
-  background-color: #FFFDF9;
-  margin:0;
+html,
+body {
+  height: 100%;
 }
 
-section {
-  background-color: #FFFDF9;
-}
-
-  a{
-  text-decoration: none;
-  color: #333;
-}
-
-p,h1,h2,h3,h4{
-  text-align: center;
-  color: #333;
-  line-height: 2;
-}
-
-ul li{
-  list-style-type: none;
-  text-align: center;
-  color: #333;
-  margin: 10px;
-  
-}
-
-#home{
-  min-height: 80vh;
-}
-
-#header{
-  border-bottom: 1px solid #333;
-  margin: 0px 130px 30px 130px;
-  padding: 50px 0px 20px 0px;
-}
-
-#header h2{
-  font-size: 40px;
-  line-height: 1;
-}
-#header h1{
-  font-size: 50px;
-  color: #CE0B09;
-}
-
-#home div p{
-  margin: 0px 130px 50px 130px;  
-  padding: 10px 100px 10px 100px;
-  font-size: 20px;
-
-}
-
-
-nav{
-  text-align: center; 
-}
-
-.nav-fixed {
-  top: 0;
-  z-index: 2;
-  position: fixed;
-  width: 100%;
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #FFFDF9;
-
-    border-bottom: 1px solid #333;
-    border-top: 1px solid #333;
-}
-
-nav li {
-  display: inline-block;
+.nav {
   margin: 0;
-}
-
-nav li a {
-    display: block;
-    padding: 14px 16px;
-}
-
-
-li a:hover {
-    color: #CE0B09;
-}
-
-#box {
-  margin: 0px 130px 10px 130px;
-  border-bottom: 1px solid #333;
-  padding: 0px 20px 30px,20px;
-}
-
-
- #apples div p{
-  padding: 60px 100px 10px 100px;
-  font-size: 18px;
-  margin-bottom: 50px;
-  
-}
-#types {
-  margin-top: -50px;
-}
-
-.floating {
-  display: inline-block;
-  width: 200px;
-  height: 150px;
-  margin: 30px 60px 30px 60px; 
-  padding: 10px;
-  vertical-align: top;
-}
-
-.floating li{
-  margin:5px 30px 5px 0px;
-}
-
-.floating h4{
-  color: #CE0B09;
-}
-
-
-#equipment{
-  min-height: 80vh;
-}
-
-#equipment div{
-  border-bottom: 1px solid #333;
-  margin: 0px 130px 50px 130px;
-}
-
-#eqhead{
-    padding-top: 100px;
-    margin-top: -50px;
-  
-}
-
-#equipment ul{
-  margin-bottom: 70px;
-  
-}
-
-#equipment li a{
-  color:#CE0B09;
-  margin-left: 10px;
-}
-
-#equipment li span{
-  margin-left: 10px;
-}
-
-
-#method{
-    padding-top: 100px;
-    margin-top: -50px;
-  
-}
-
-#recipe div{
-  border-bottom: 1px solid #333;
-  margin: 60px 130px 50px 130px;
-} 
-
-#recipe ol li{
-  margin:20px;
-  color: #333;
-}
-
-footer{
-  color:#CE0B09;
+  padding: 17px 0;
   text-align: center;
-
+  background-color: #333;
 }
 
-@media screen and (max-width: 400px) {
-
-     .nav-fixed,nav{
-        display: none;
-    }
-  
-  
-  #header{
-  border-bottom: 1px solid #333;
-  margin: 30px 30px 30px 30px;
-  padding: 20px 0px 20px 0px;
+.nav li {
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #FFFAFA;
 }
 
-#home div p{
-  margin: 0px 30px 50px 30px;  
-  padding: 10px 10px 10px 10px;
+.nav a {
+  color: #FFFAFA;
 }
 
-#box {
-  margin: 50px 30px 10px 30px;
-  border-bottom: 1px solid #333;
-  padding: 0px 0px 30px,0px;
+.nav li a:hover {
+  text-decoration: none;
+  background-color: #333;
+  border-bottom: 1px solid #ffc3a2;
 }
 
- #apples div p{
-  padding: 10px 10px 10px 10px;
-  font-size: 17px;
-  margin-bottom: 50px;
- }
+header {
+  height: 100%;
+  background: url(https://s18.postimg.org/quoppvk95/12316129_10205694724515309_775114409690333068_n.jpg);
+  background-size: cover;
+}
 
-  .floating {
-  display: inline-block;
+header h1 {
+  margin: 70px 0px 50px 50px;
+}
+
+.linkContainer {
+  margin-left: 50px;
+}
+
+.btn {
+  margin: 20px auto;
+  font-size: 15px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #FFF;
+  color: #333333;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.3)
+}
+
+.about {
+  background: #F5E1E0;
+  height: 100%;
+}
+
+.imageCont {
+  padding: 100px 0;
+  margin: 0 auto;
+}
+
+.about img {
+  display: block;
   width: 200px;
-  height: 150px;
-  margin: 10px 10px 0px 10px; 
-  padding: 10px;
-  vertical-align: top;
+  height: auto;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 3px solid white;
 }
 
-.floating li{
-  margin:0px 30px 5px 0px;
-}
-  
- #equipment div{
-  border-bottom: 1px solid #333;
-  margin: 60px 30px 50px 30px;
-}
-  
-  #equipment li a{
-  color:#CE0B09;
+.about img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
 }
 
-#recipe div{
-  border-bottom: 1px solid #333;
-  margin: 60px 30px 50px 30px;
-} 
+.about p {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  border-top: 1px solid white;
+  padding: 20px;
+}
+
+.portfolio {
+  display: flexbox;
+  background: #FFFAFA;
+  height: 100%;
+}
+
+#portfolio h1 {
+  padding-top: 70px;
+  color: #333;
+  text-align: center;
+}
+
+.portLinksCont {
+  margin: 0px auto;
+  text-align: center;
+  letter-spacing: 1.1px;
+}
+
+.portLinks {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin: 15px;
+}
+
+.portLinks img {
+  width: 300px;
+  height: 200px;
+}
+
+.portLinks p {
+  color: #333;
+  text-transform: uppercase;
+}
+
+.contact {
+  background-color: #9CACE0;
+  height: 100%;
+  text-align: center;
+}
+
+.contact h1 {
+  width: 325px;
+  margin: 0 auto;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contactBtn {
+  width: 325px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact a {
+  display: block;
+  width: 300px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer p {
+  font-size: 11px;
+  margin-left: 100px;
+}
+
+@media(min-width: 620px) {
+  .nav li {
+    display: inline;
+    text-align: right;
+  }
+  .nav li a {
+    display: inline;
+  }
+  .btn {
+    display: inline-block;
+    margin-top: 60px;
+    margin-right: 20px;
+  }
+}
+
+@media(max-width:619px) {
+  .nav {
+    max-height: 46px;
+    max-width: 56px;
+    float: right;
+    overflow: hidden;
+  }
+  .nav:hover {
+    max-width: 100%;
+    max-height: 100%;
+    float: none;
+  }
+  .nav:before {
+    content: '—';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 34px;
+    overflow: hidden;
+    height: 5px;
+    padding: 3px 0 13px 0;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 58px;
+    line-height: 20px;
+  }
+  .about {
+    height: auto;
+  }
+  .portfolio {
+    height: auto;
+  }
+  #home h1 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .linkContainer {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 10px;
+  }
 }

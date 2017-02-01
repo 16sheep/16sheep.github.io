@@ -57,7 +57,7 @@ header h1 {
 
 .about {
   background: #F5E1E0;
-  height: 100%;
+  height: auto;
 }
 
 .imageCont{
@@ -93,7 +93,7 @@ header h1 {
 .portfolio {
   display:flexbox;
   background: #FFFAFA;
-  height: 100%;
+  height: auto;
 }
 
 #portfolio h1 {

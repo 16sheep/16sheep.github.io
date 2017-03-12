@@ -1,6 +1,7 @@
-html, body {
-    height:100%;
-    backgroung:#F5E1E0;
+html,
+body {
+  height: 100%;
+  background: #F5E1E0;
 }
 
 .nav {
@@ -23,13 +24,13 @@ html, body {
 }
 
 .nav li a:hover {
-    text-decoration: none;
-    background-color: #333;
-    border-bottom:1px solid #ffc3a2;
+  text-decoration: none;
+  background-color: #333;
+  border-bottom: 1px solid #ffc3a2;
 }
 
-header{
-  height:100%;
+header {
+  height: 100%;
   background: url(https://s18.postimg.org/quoppvk95/12316129_10205694724515309_775114409690333068_n.jpg);
   background-size: cover;
 }
@@ -38,8 +39,8 @@ header h1 {
   margin: 70px 0px 50px 50px;
 }
 
- .linkContainer {
-  margin-left:50px;
+.linkContainer {
+  margin-left: 50px;
 }
 
 .btn {
@@ -57,24 +58,25 @@ header h1 {
 
 .about {
   background: #F5E1E0;
-  height: auto;
+  height: 100%;
 }
 
-.imageCont{
-  padding:100px 20px 50px 20px;
-  margin:20px auto;
-  border-bottom:2px solid white;
-  max-width:900px;
+.imageCont {
+  padding: 100px 20px 50px 20px;
+  margin: 20px auto;
+  border-bottom: 2px solid white;
+  max-width: 900px;
 }
+
 .about img {
-  display:block;
+  display: block;
   width: 300px;
   height: auto;
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
-  margin:0 auto;
-  border-radius:50%;
-  border:3px solid white;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 3px solid white;
 }
 
 .about img:hover {
@@ -86,12 +88,12 @@ header h1 {
   margin: 0 auto;
   text-align: center;
   font-size: 18px;
-  max-width:750px;
-  padding:20px;
+  max-width: 750px;
+  padding: 20px;
 }
 
 .portfolio {
-  display:flexbox;
+  display: flexbox;
   background: #FFFAFA;
   height: auto;
 }
@@ -102,73 +104,68 @@ header h1 {
   text-align: center;
 }
 
-.portLinksCont{
-  margin:0px auto;
-  text-align:center;
+.portLinksCont {
+  margin: 0px auto;
+  text-align: center;
   letter-spacing: 1.1px;
-  padding:20px;
+  padding: 20px;
 }
 
 .portLinks {
-  display:inline-block;
-  width:300px;
-  height:200px;
-  margin:15px;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin: 15px;
   box-shadow: 2px 2px 5px rgba(51, 51, 51, 1);
-    vertical-align:top;
 }
 
-.portLinks img{
-  width:300px;
-  height:200px;
+.portLinks img {
+  width: 300px;
+  height: 200px;
   transition: all .2s ease-in-out;
 }
 
-.portLinks img:hover{
+.portLinks img:hover {
   transform: scale(1.05);
 }
 
-.portLinks p{
-  color:#333;
+.portLinks p {
+  color: #333;
   text-transform: uppercase;
-  padding-top:5px;
-}
-.contact {
-  background-color: #9CACE0;
-  height: 100%;
-  text-align:center;
+  padding-top: 5px;
 }
 
-.contact h1 {
-  width:325px;
+.contactBtn {
+  width: 300px;
   margin: 0 auto;
-  padding-top:100px;
-  text-align:center;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
 }
 
-.contactBtn{
-  max-width:500px;
-  margin: 0 auto;
-  text-align:center;
-  border-bottom:1px solid white;
-}
-
-.contact a{
-  display:block;
-  width:300px;
-  text-align:center;
-  margin: 40px auto;
+.contactbtn {
+  margin: 20px;
 }
 
 .footer {
   background-color: #333;
   color: #fff;
   padding: 20px;
+  text-align: center;
+  ;
 }
 
-.footer p {
+.linkd{
+  opacity:0.5
+}
+
+.tweet{
+opacity:0.5;
+}
+
+.footer span {
   font-size: 11px;
-  margin-left: 100px;
+  width: 300px;
 }
 
 @media(min-width: 620px) {
@@ -218,23 +215,21 @@ header h1 {
     font-size: 58px;
     line-height: 20px;
   }
-  
-  .about{
-    height:auto;
+  .about {
+    height: auto;
   }
-  
-  .portfolio{
-    height:auto;
+  .portfolio {
+    height: auto;
   }
-  
-  #home h1{
-    max-width:600px;
-    margin:0 auto;
-    padding:10px;
+  #home h1 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
   }
-.linkContainer{
-    max-width:350px;
-    margin:0 auto;
-    padding:10px;
+  .linkContainer {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 10px;
   }
 }
+

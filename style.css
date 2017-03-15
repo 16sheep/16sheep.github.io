@@ -143,7 +143,6 @@ header h1 {
 
 .contactbtn {
   margin: 10px;
-  display: inline;
 }
 
 .footer {
@@ -161,9 +160,10 @@ header h1 {
   opacity:0.5;
 }
 
-.footer span {
+.footer p {
   font-size: 11px;
   width: 300px;
+  margin:0 auto;
 }
 
 @media(min-width: 620px) {

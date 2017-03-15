@@ -58,7 +58,6 @@ header h1 {
 
 .about {
   background: #F5E1E0;
-  height: 100%;
 }
 
 .imageCont {
@@ -95,7 +94,6 @@ header h1 {
 .portfolio {
   display: flexbox;
   background: #FFFAFA;
-  height: auto;
 }
 
 #portfolio h1 {
@@ -144,7 +142,8 @@ header h1 {
 }
 
 .contactbtn {
-  margin: 20px;
+  margin: 10px;
+  display: inline;
 }
 
 .footer {
@@ -152,7 +151,6 @@ header h1 {
   color: #fff;
   padding: 20px;
   text-align: center;
-  ;
 }
 
 .linkd{
@@ -160,7 +158,7 @@ header h1 {
 }
 
 .tweet{
-opacity:0.5;
+  opacity:0.5;
 }
 
 .footer span {
@@ -232,4 +230,3 @@ opacity:0.5;
     padding: 10px;
   }
 }
-

@@ -1,142 +1,97 @@
 html,
 body {
   height: 100%;
-  background: #F5E1E0;
+}
+
+.navbar {
+  background-color: white;
 }
 
 .nav {
   margin: 0;
   padding: 17px 0;
-  text-align: center;
-  background-color: #333;
+}
+
+.nav>li>a {
+  display: inline;
+  color: #bbb;
+}
+/*Class which is applied on scroll changes background color of navigation bar*/
+.change {
+  background: #eee;
 }
 
 .nav li {
-  padding: 20px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  color: #FFFAFA;
-}
-
-.nav a {
-  color: #FFFAFA;
+  display: inline;
 }
 
 .nav li a:hover {
   text-decoration: none;
-  background-color: #333;
+  background: transparent;
   border-bottom: 1px solid #ffc3a2;
 }
 
 header {
-  height: 100%;
-  background: url(https://s18.postimg.org/quoppvk95/12316129_10205694724515309_775114409690333068_n.jpg);
+  height: 87%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(https://s18.postimg.org/quoppvk95/12316129_10205694724515309_775114409690333068_n.jpg);
   background-size: cover;
 }
 
-header h1 {
-  margin: 70px 0px 50px 50px;
+.container {
+  color: white;
 }
 
-.linkContainer {
-  margin-left: 50px;
+.container h1 {
+  margin-top: 15%;
 }
 
-.btn {
-  margin: 20px auto;
-  font-size: 15px;
-  letter-spacing: 1.3px;
-  padding: 10px 20px;
-  text-decoration: none;
-  text-transform: uppercase;
-  border: 1px solid #FFF;
-  color: #333333;
-  display: block;
-  background-color: rgba(255, 255, 255, 0.3)
-}
-
-.about {
-  background: #F5E1E0;
-}
-
-.imageCont {
-  padding: 100px 20px 50px 20px;
-  margin: 20px auto;
-  border-bottom: 2px solid white;
-  max-width: 900px;
-}
-
-.about img {
-  display: block;
-  width: 300px;
-  height: auto;
-  filter: grayscale(1);
-  -webkit-filter: grayscale(1);
-  margin: 0 auto;
-  border-radius: 50%;
-  border: 3px solid white;
-}
-
-.about img:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-}
-
-.about p {
-  margin: 0 auto;
+h1,
+h2,
+.footer,
+.contact-link-box {
   text-align: center;
-  font-size: 18px;
-  max-width: 750px;
-  padding: 20px;
-}
-
-.portfolio {
-  display: flexbox;
-  background: #FFFAFA;
 }
 
 #portfolio h1 {
-  padding-top: 70px;
   color: #333;
-  text-align: center;
 }
 
-.portLinksCont {
+.portfolio-item-box {
   margin: 0px auto;
-  text-align: center;
   letter-spacing: 1.1px;
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.portLinks {
-  display: inline-block;
+.portfolio-item {
   width: 300px;
   height: 200px;
   margin: 15px;
   box-shadow: 2px 2px 5px rgba(51, 51, 51, 1);
 }
 
-.portLinks img {
-  width: 300px;
+.portfolio-item img {
+  width: 100%;
   height: 200px;
   transition: all .2s ease-in-out;
 }
 
-.portLinks img:hover {
+.portfolio-item img:hover {
   transform: scale(1.05);
 }
 
-.portLinks p {
+.portfolio-item p {
   color: #333;
   text-transform: uppercase;
   padding-top: 5px;
 }
 
-.contactBtn {
-  width: 300px;
-  margin: 0 auto;
-  text-align: center;
+.contact-link-box {
   padding: 10px;
 }
 
@@ -144,84 +99,28 @@ header h1 {
   background-color: #333;
   color: #fff;
   padding: 20px;
-  text-align: center;
 }
 
-.linkd{
-  opacity:0.5
+.link {
+  opacity: 0.7;
 }
 
-.tweet{
-  opacity:0.5;
+.link:hover {
+  opacity: 1;
 }
 
 .footer p {
   font-size: 11px;
-  width: 300px;
-  margin:0 auto;
 }
 
-@media(min-width: 620px) {
-  .nav li {
-    display: inline;
-    text-align: right;
-  }
-  .nav li a {
-    display: inline;
-  }
-  .btn {
-    display: inline-block;
-    margin-top: 60px;
-    margin-right: 20px;
-  }
-}
+/*Media queries*/
 
-@media(max-width:619px) {
-  .nav {
-    max-height: 46px;
-    max-width: 56px;
-    float: right;
-    overflow: hidden;
+/*On a smartphone on landscape mode make the headings smaller to fit the viewport.*/
+@media (max-width:700px) and (orientation: landscape) {
+  .container h1 {
+    font-size: 200%
   }
-  .nav:hover {
-    max-width: 100%;
-    max-height: 100%;
-    float: none;
-  }
-  .nav:before {
-    content: '—';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 34px;
-    overflow: hidden;
-    height: 5px;
-    padding: 3px 0 13px 0;
-    border-top: 4px solid white;
-    border-bottom: 4px solid white;
-    text-align: center;
-    vertical-align: middle;
-    color: white;
-    font-size: 58px;
-    line-height: 20px;
-  }
-  .about {
-    height: auto;
-  }
-  .portfolio {
-    height: auto;
-  }
-  #home h1 {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 10px;
-  }
-  .linkContainer {
-    max-width: 350px;
-    margin: 0 auto;
-    padding: 10px;
+  .container h2 {
+    font-size: 150%;
   }
 }

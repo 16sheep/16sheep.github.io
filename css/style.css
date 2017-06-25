@@ -117,7 +117,7 @@ h2,
 /*Media queries*/
 
 /*On a smartphone on landscape mode make the headings smaller to fit the viewport.*/
-@media (max-width:700px) and (orientation: landscape) {
+@media screen and (max-width:700px) and (orientation: landscape) and (-webkit-device-pixel-ratio:3) {
   header {
     height: 95%;
   }
@@ -132,8 +132,13 @@ h2,
 }
 
 /*On a smartphone portrait mode add top margin to h1 to push it more towards the center of the screen*/
-@media (max-width:900px) and (orientation: portrait) {
+@media screen and (max-width:900px) and (orientation: portrait) {
   .container h1 {
-    margin-top: 40%;
+    margin-top: 30%;
   }
+ 
+ header {
+    height: 92%;
+  }
+
 }

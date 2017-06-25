@@ -118,6 +118,10 @@ h2,
 
 /*On a smartphone on landscape mode make the headings smaller to fit the viewport.*/
 @media (max-width:700px) and (orientation: landscape) {
+  h1, h2 {
+    font-weight: 500;
+  }
+  
   .container h1 {
     font-size: 200%
   }
@@ -130,6 +134,6 @@ h2,
 /*On a smartphone portrait mode add top margin to h1 to push it more towards the center of the screen*/
 @media (max-width:900px) and (orientation: portrait) {
   .container h1 {
-    margin-top: 50%;
+    margin-top: 40%;
   }
 }
